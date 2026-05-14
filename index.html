@@ -40,7 +40,7 @@
 </html> --> 
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -70,6 +70,35 @@
         <tbody id="studentList"></tbody>
     </table>
 
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student mangement protal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="#">
+    <div class="form">
+    <input type="text" id="name" placeholder="enter your name">
+    <input type="text" id="branch"  placeholder="enter your branch">
+    <button id="add" onclick="addstudent()">Add student</button>
+</div>
+</form>
+<table>
+    <thead>
+        <th id="container">name</th>
+        <th id="container">branch</th>
+        <th id="delete" >delete</th>
+
+    </thead>
+    <tbody id="studentlist"></tbody>
+</table>
     <script src="script.js"></script>
 </body>
 </html>

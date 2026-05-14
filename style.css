@@ -40,7 +40,7 @@ button:hover{
 
 
 
-body {
+/* body {
     font-family: Arial;
     text-align: center;
     background: #f4f4f4;
@@ -86,4 +86,51 @@ th, td {
 th {
     background: #333;
     color: white;
+} */
+
+
+*{
+    padding:0;
+    margin: 0%;
+}
+body{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+input{
+    width: 130px;
+    height: 30px;
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 20px;
+
+}
+button{
+    width: 120px;
+    height: 50px;
+    background-color: chartreuse;
+}
+#add:hover{
+    background-color: blue;
+
+}
+
+
+.form{
+    padding: 10px;
+    border: 10px;
+}
+#container{
+    /* border: 10px yellow solid; */
+    padding: 10px;
+    margin-left: 30px;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding:10px ;
+    border:1px black solid;
 }
